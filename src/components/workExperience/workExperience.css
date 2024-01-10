@@ -1,0 +1,85 @@
+.experience-container {
+  margin: 0rem;
+  position: relative;
+}
+
+.experience-container h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 3rem 0 3rem 0;
+}
+
+.arrow-left,
+.arrow-right {
+  width: 2.4rem;
+  height: 2.2rem;
+  padding: 6px 5px 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6751b9;
+  border-radius: 0.65rem;
+  border: 1.5px solid #6751b9;
+  background: #130f2a;
+  position: absolute;
+  top: 45%;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.arrow-left span,
+.arrow-right span {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.arrow-left {
+  left: -2rem;
+  top: 55%;
+}
+
+.arrow-right {
+  right: -2rem;
+  top: 55%;
+}
+
+@media (max-width: 1025px) {
+  .arrow-left {
+    left: -1rem;
+    top: 55%;
+  }
+
+  .arrow-right {
+    right: -1rem;
+    top: 55%;
+  }
+}
+
+@media (max-width: 1441px) {
+  .arrow-left {
+    left: -1rem;
+    top: 55%;
+  }
+
+  .arrow-right {
+    right: -1rem;
+    top: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  .experience-container h5 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .arrow-left {
+    left: -1rem;
+    top: 50%;
+  }
+
+  .arrow-right {
+    right: -1rem;
+    top: 50%;
+  }
+}

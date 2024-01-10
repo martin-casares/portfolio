@@ -1,0 +1,27 @@
+.projects-container {
+}
+
+.projects-container h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 3.5rem 0;
+}
+.projects-content {
+  /* margin: 6rem 0 0 1rem; */
+  /* display: flex; */
+  /* align-items: center; */
+  /*   gap: 1rem; */
+}
+
+.projects {
+  /* flex: 1; */
+  /* display: grid; */
+
+  grid-gap: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  /* margin-left: 2rem; */
+  grid-template-columns: repeat(3, 1fr);
+}
