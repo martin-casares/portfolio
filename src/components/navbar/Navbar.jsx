@@ -6,7 +6,7 @@ import { MdClose } from "react-icons/md";
 
 import { MobileNav } from "./mobileNav/MobileNav";
 
-export const Navbar = ({ scrollToSection }) => {
+export const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
 
   const toggleMenu = () => {
