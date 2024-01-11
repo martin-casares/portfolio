@@ -21,11 +21,11 @@ export const Hero = () => {
         <a
           href={curriculum}
           target="_blank"
-          rel="noopener noreferrer"
-          download="cv-martin-casares.pdf"
+          /* rel="noopener noreferrer"
+		download="cv-martin-casares.pdf" */
           className="cv-btn"
         >
-          Descarcar Cv
+          Descargar Cv
         </a>
       </div>
 

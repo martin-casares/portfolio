@@ -10,16 +10,17 @@ import { Footer } from "./components/footer/Footer";
 import { WORK_EXPERIENCE, ACADEMIC_FORMATION } from "./utils/data";
 
 function App() {
-  const scrollToSection = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+  /* const scrollToSection = (id) => {
+   *   const element = document.getElementById(id);
+   *   if (element) {
+   *     element.scrollIntoView({ behavior: "smooth" });
+   *   }
+   * }; */
 
   return (
     <>
-      <Navbar scrollToSection={scrollToSection} />
+      {/* <Navbar scrollToSection={scrollToSection} /> */}
+      <Navbar />
       <div className="container">
         <Hero />
 
